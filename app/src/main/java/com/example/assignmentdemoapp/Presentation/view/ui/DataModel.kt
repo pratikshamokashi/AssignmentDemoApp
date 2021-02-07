@@ -1,7 +1,7 @@
-package com.example.assignmentdemoapp.Presentation.view
+package com.example.assignmentdemoapp.Presentation.view.ui
 
 import com.example.assignmentdemoapp.Presentation.view.base.Status
-import com.example.assignmentdemoapp.domain.domain.entity.ResponseDataEntiy
+import com.example.assignmentdemoapp.Domain.domain.entity.ResponseDataEntiy
 import com.google.gson.annotations.SerializedName
 
 class DataModel(
@@ -23,11 +23,19 @@ class DataModel(
     companion object {
 
         fun success(response: ResponseDataEntiy): DataModel {
-            return DataModel(Status.SUCCESS, response, null)
+            return DataModel(
+                Status.SUCCESS,
+                response,
+                null
+            )
         }
 
         fun error(error: Throwable): DataModel {
-            return DataModel(Status.ERROR, null, error)
+            return DataModel(
+                Status.ERROR,
+                null,
+                error
+            )
         }
     }
 }

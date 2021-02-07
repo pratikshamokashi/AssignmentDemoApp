@@ -1,8 +1,7 @@
 package com.example.assignmentdemoapp.Data.DataMapper
 
 import com.example.assignmentdemoapp.Data.services.response.ResponseData
-import com.example.assignmentdemoapp.domain.domain.entity.ResponseDataE
-import com.example.assignmentdemoapp.domain.domain.entity.ResponseDataEntiy
+import com.example.assignmentdemoapp.Domain.domain.entity.ResponseDataEntiy
 import retrofit2.Response
 
 class UserDataMapper {
@@ -15,4 +14,3 @@ class UserDataMapper {
         return responseDataEntity
     }
 }
-//rest api madhe samjel jar error ala tre debug kartana

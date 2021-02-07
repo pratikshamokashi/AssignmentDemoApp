@@ -1,4 +1,4 @@
-package com.example.assignmentdemoapp.domain.domain.entity
+package com.example.assignmentdemoapp.Domain.domain.entity
 
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName

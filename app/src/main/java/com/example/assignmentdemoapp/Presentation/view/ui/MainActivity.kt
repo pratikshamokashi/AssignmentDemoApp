@@ -1,10 +1,8 @@
-package com.example.assignmentdemoapp.Presentation.view
+package com.example.assignmentdemoapp.Presentation.view.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.View
-import android.widget.Toast
 import androidx.lifecycle.Observer
 import com.example.assignmentdemoapp.Presentation.view.base.Status
 import com.example.assignmentdemoapp.R

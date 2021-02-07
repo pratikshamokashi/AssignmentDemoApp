@@ -2,8 +2,8 @@ package com.example.assignmentdemoapp.Data.UserRepository
 
 import com.example.assignmentdemoapp.Data.DataMapper.UserDataMapper
 import com.example.assignmentdemoapp.Data.services.services.RestApi
-import com.example.assignmentdemoapp.domain.domain.entity.ResponseDataEntiy
-import com.example.assignmentdemoapp.domain.repository.UserRepository
+import com.example.assignmentdemoapp.Domain.domain.entity.ResponseDataEntiy
+import com.example.assignmentdemoapp.Domain.repository.UserRepository
 import io.reactivex.Observable
 
 class UserDataRepository constructor(var mRestApi: RestApi, var mUserDataMapper: UserDataMapper) :

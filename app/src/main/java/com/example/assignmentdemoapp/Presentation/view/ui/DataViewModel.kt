@@ -1,11 +1,12 @@
-package com.example.assignmentdemoapp.Presentation.view
+package com.example.assignmentdemoapp.Presentation.view.ui
 
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.assignmentdemoapp.domain.domain.entity.ResponseDataEntiy
-import com.example.assignmentdemoapp.domain.interactor.DataUC
+import com.example.assignmentdemoapp.Domain.domain.entity.ResponseDataEntiy
+import com.example.assignmentdemoapp.Domain.interactor.DataUC
+import com.example.assignmentdemoapp.Presentation.view.ui.DataModel
 import io.reactivex.observers.DisposableObserver
 
 class DataViewModel(var mDataUc :DataUC) :ViewModel() {

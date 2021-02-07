@@ -1,4 +1,4 @@
-package com.example.assignmentdemoapp.domain.interactor
+package com.example.assignmentdemoapp.Domain.interactor
 
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers

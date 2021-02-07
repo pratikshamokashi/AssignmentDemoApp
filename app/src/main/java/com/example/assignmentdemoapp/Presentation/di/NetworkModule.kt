@@ -6,8 +6,8 @@ import com.example.assignmentdemoapp.Data.UserRepository.UserDataRepository
 import com.example.assignmentdemoapp.Data.services.services.NetworkServices
 import com.example.assignmentdemoapp.Data.services.services.RestApi
 import com.example.assignmentdemoapp.Data.services.services.RestApiImp
-import com.example.assignmentdemoapp.domain.interactor.DataUC
-import com.example.assignmentdemoapp.domain.repository.UserRepository
+import com.example.assignmentdemoapp.Domain.interactor.DataUC
+import com.example.assignmentdemoapp.Domain.repository.UserRepository
 import io.reactivex.schedulers.Schedulers
 import okhttp3.OkHttpClient
 import org.koin.dsl.module
