@@ -46,6 +46,11 @@ class ResponseDataEntiy:Serializable {
         @SerializedName("territory")
         @Expose
         var territory: String? = null
+
+        override fun toString(): String {
+            return "$zone"
+        }
+
     }
     class RegionE {
         @SerializedName("region")
@@ -55,8 +60,11 @@ class ResponseDataEntiy:Serializable {
         @SerializedName("territory")
         @Expose
         var territory: String? = null
+        override fun toString(): String {
+            return "$region"
+        }
     }
-    class EmployeeE {
+    class EmployeeE:Serializable {
         @SerializedName("area")
         @Expose
         var area: String? = null
@@ -68,6 +76,10 @@ class ResponseDataEntiy:Serializable {
         @SerializedName("territory")
         @Expose
         var territory: String? = null
+
+        override fun toString(): String {
+            return "$name"
+        }
     }
     class CountryE {
         @SerializedName("country")
@@ -77,6 +89,10 @@ class ResponseDataEntiy:Serializable {
         @SerializedName("territory")
         @Expose
         var territory: String? = null
+
+        override fun toString(): String {
+            return "$country"
+        }
     }
     class AreaE {
         @SerializedName("area")
@@ -86,4 +102,8 @@ class ResponseDataEntiy:Serializable {
         @SerializedName("territory")
         @Expose
         var territory: String? = null
+
+        override fun toString(): String {
+            return "$area"
+        }
     }
